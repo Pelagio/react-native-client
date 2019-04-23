@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source_files  = "**/*.{h,m,swift}"
   s.swift_version = "5.0"
 
+  s.dependency "React"
   s.dependency "LaunchDarkly", "~> 3.0.0-beta.2"
 
 end
